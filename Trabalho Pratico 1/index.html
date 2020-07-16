@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho 1</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="inputs">
+      <div>
+        <input type="range" value="100" min="0" max="255" id="redInput" />
+        <input
+          type="number"
+          value="100"
+          class="colorTxt"
+          readonly
+          id="redTxt"
+        />
+      </div>
+      <div>
+        <input type="range" value="100" min="0" max="255" id="greenInput" />
+        <input
+          type="number"
+          value="100"
+          class="colorTxt"
+          readonly
+          id="greenTxt"
+        />
+      </div>
+      <div>
+        <input type="range" value="100" min="0" max="255" id="blueInput" />
+        <input
+          type="number"
+          value="100"
+          class="colorTxt"
+          readonly
+          id="blueTxt"
+        />
+      </div>
+    </div>
+    <div id="colored"></div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
