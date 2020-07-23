@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 1</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Pesquisa de usuarios</h1>
+    <div>
+      <form>
+        <div class="baseConfig" id="nameInput">
+          <p>Nome:</p>
+          <input
+            type="text"
+            placeholder="Type a name"
+            class="inputs"
+            id="inputNameToAdd"
+          />
+        </div>
+      </form>
+    </div>
+    <div class="baseConfig borderStyles" id="searchResult">
+      <div class="borderStyles" id="people">
+        <h1 id="countUsers">Nenhum usuário encontrado</h1>
+      </div>
+      <div class="borderStyles">
+        <h1 id="stats">Estatísticas</h1>
+        <div id="aboutSearch"></div>
+      </div>
+    </div>
+
+    <script defer src="./js/scripts.js"></script>
+  </body>
+</html>

@@ -1,10 +1,10 @@
 window.addEventListener("load", start);
 
-var colorBlock = document.querySelector("#colored");
+let colorBlock = document.querySelector("#colored");
 //inputs
-var red = document.querySelector("#redInput");
-var green = document.querySelector("#greenInput");
-var blue = document.querySelector("#blueInput");
+let red = document.querySelector("#redInput");
+let green = document.querySelector("#greenInput");
+let blue = document.querySelector("#blueInput");
 
 function start() {
   refreshColor();
@@ -16,22 +16,22 @@ function start() {
   document.querySelector("#blueInput").addEventListener("change", refreshBlue);
 }
 
-function refreshColor() {
+const refreshColor = () => {
   colorBlock.style.backgroundColor =
     "rgb(" + red.value + "," + green.value + "," + blue.value + ")";
-}
+};
 
-function refreshRed() {
+const refreshRed = () => {
   document.querySelector("#redTxt").value = red.value;
   refreshColor();
-}
+};
 
-function refreshGreen() {
+const refreshGreen = () => {
   document.querySelector("#greenTxt").value = green.value;
   refreshColor();
-}
+};
 
-function refreshBlue() {
+const refreshBlue = () => {
   document.querySelector("#blueTxt").value = blue.value;
   refreshColor();
-}
+};

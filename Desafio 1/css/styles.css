@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.baseConfig {
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.borderStyles {
+  min-width: 500px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+#nameInput {
+  justify-content: center;
+}
+
+#searchResult {
+  justify-content: space-around;
+}
